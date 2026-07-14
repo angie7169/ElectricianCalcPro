@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrician Calc Pro — Support</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --fg: #0A2540;
+            --muted: #6e6e73;
+            --accent: #FFD60A;
+            --accent-ink: #0A2540;
+            --border: #d2d2d7;
+            --code-bg: #f5f5f7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0A2540;
+                --fg: #f5f5f7;
+                --muted: #98989d;
+                --border: #1f3a55;
+                --code-bg: #11304d;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            margin: 0;
+            padding: 0;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .logo {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            margin: 0 auto 12px;
+            display: block;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0 0 8px;
+            letter-spacing: -0.02em;
+        }
+        .subtitle {
+            color: var(--muted);
+            font-size: 15px;
+            margin: 0;
+        }
+        .updated {
+            color: var(--muted);
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin: 40px 0 12px;
+            letter-spacing: -0.01em;
+            scroll-margin-top: 20px;
+        }
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 24px 0 8px;
+        }
+        p, li {
+            font-size: 15.5px;
+            color: var(--fg);
+        }
+        ul, ol {
+            padding-left: 22px;
+        }
+        li {
+            margin: 4px 0;
+        }
+        a {
+            color: var(--accent-ink);
+            background: var(--accent);
+            text-decoration: none;
+            padding: 1px 5px;
+            border-radius: 4px;
+        }
+        @media (prefers-color-scheme: dark) {
+            a {
+                color: var(--accent-ink);
+                background: var(--accent);
+            }
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px;
+        }
+        strong { font-weight: 600; }
+        code {
+            background: var(--code-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13.5px;
+            font-family: "SF Mono", ui-monospace, Menlo, monospace;
+        }
+        .contact-box {
+            background: var(--code-bg);
+            border-radius: 14px;
+            padding: 24px;
+            margin: 16px 0;
+            text-align: center;
+        }
+        .contact-box a {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 6px 14px;
+        }
+        .faq-item {
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item h3 {
+            margin-top: 0;
+        }
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+        .nav-links a {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Electrician Calc Pro" class="logo" onerror="this.style.display='none'">
+            <h1>Support</h1>
+            <p class="subtitle">Electrician Calc Pro</p>
+            <p class="updated">Last updated: 2026-07-14</p>
+        </header>
+
+        <h2>Contact</h2>
+        <p>We're happy to help. For bug reports, feature requests, billing questions, or anything else, reach us at:</p>
+        <div class="contact-box">
+            <a href="mailto:ElectricianCalcPro.supp@12533.uk">ElectricianCalcPro.supp@12533.uk</a>
+        </div>
+        <p>Please include the calculator name, the input values you entered, and the result you expected versus what you saw. A screenshot helps a lot. We typically reply within 1-2 business days.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Which calculators are free, and what does Pro unlock?</h3>
+            <p>Ohm's Law and Unit Converter are always free. The Pro unlock (a one-time purchase) unlocks Voltage Drop, Wire Size, Conduit Fill, and Box Fill — plus saved History with Favorites and PDF export of any calculation.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is Pro a subscription?</h3>
+            <p>No. Pro is a <strong>one-time, non-consumable purchase</strong>. You pay once and keep it forever — no recurring charges, no auto-renewal, no subscription to cancel.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>I reinstalled the app / got a new phone — how do I get Pro back?</h3>
+            <p>Open any locked calculator to reach the Pro screen, then tap <strong>Restore Purchase</strong> at the bottom. As long as you're signed in with the same Apple ID used to buy Pro, your unlock is restored for free. Internet access is required.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Restore says it can't connect to the App Store — what do I do?</h3>
+            <p>This usually means the Apple ID isn't signed in to the App Store, or the network is unstable. Check <strong>Settings → Apple ID → Media &amp; Purchases</strong> on your device, confirm you're signed in, and try again over Wi-Fi. If it still fails, email us with the Apple ID you purchased with (do not send your password).</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Which NEC edition does the app use?</h3>
+            <p>Electrician Calc Pro references <strong>NEC 2026</strong> data (Chapter 9 Tables 1, 4, 5, 8; Table 310.16; Annex C) and ASTM B258 conductor sizes. The NEC is a model code — always confirm the edition adopted and enforced by your local Authority Having Jurisdiction (AHJ), as local amendments may apply.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>A result looks wrong — what should I do?</h3>
+            <p>Every result page lists the full formula steps and the NEC article cited, so you can verify it yourself. If a value seems off, double-check your inputs (units, conductor type, raceway fill). If it still looks wrong, email us with the calculator, your inputs, and the expected result — we'll investigate.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Where is my calculation history stored?</h3>
+            <p>History is stored <strong>only on your device</strong> using Apple's on-device storage. It never leaves your phone and is not uploaded anywhere. Uninstalling the app permanently deletes all history.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I export a calculation?</h3>
+            <p>Yes — with Pro, open any saved calculation in History and tap the export button to generate a PDF report with inputs, formula steps, result, and NEC references. You can share or print it from there.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>The app is a tool, not a stamp of approval — right?</h3>
+            <p>Correct. Electrician Calc Pro is a <strong>reference and calculation aid</strong>. It does not inspect, certify, or approve any installation, and it does not replace the judgment of a licensed electrician, professional engineer, or your AHJ. Independently verify every result before relying on it. See the in-app disclaimer and our <a href="eula.html">EULA</a>.</p>
+        </div>
+
+        <h2>Legal</h2>
+        <p>This app is not affiliated with, sponsored by, or endorsed by the National Fire Protection Association. NEC® and National Electrical Code® are registered trademarks of NFPA.</p>
+
+        <div class="footer">
+            <p>© 2026 Electrician Calc Pro. All rights reserved.</p>
+            <div class="nav-links">
+                <a href="index.html">Privacy Policy</a>
+                <a href="eula.html">EULA</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
